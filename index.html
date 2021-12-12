@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rest Countries With Weather API</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style type="text/css">
+
+		/*  CSS styling for the grouping of the cards in case of using card-column bootstrap class */
+		.card-columns {
+		  @include media-breakpoint-only(lg) {
+		    column-count: 3;
+		  }
+		  @include media-breakpoint-only(xl) {
+		    column-count: 3;
+		  }
+		}
+
+		@media (max-width: 576px) {  
+		  .xs {color:red;font-weight:bold;}
+		}
+
+		/* Small devices (landscape phones, 576px and up) */
+		@media (min-width: 576px) and (max-width:768px) {  
+		  .sm {color:red;font-weight:bold;}
+		}
+		 
+		/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+		@media (min-width: 768px) and (max-width:992px) {  
+		 .md {color:red;font-weight:bold;}
+		}
+		 
+		/* Large devices (desktops, 992px and up) */
+		@media (min-width: 992px) and (max-width:1200px) { 
+		 .lg {color:red;font-weight:bold;}
+		}
+		 
+		/* Extra large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) {  
+		    .xl {color:red;font-weight:bold;}
+		}
+
+	</style>
+</head>
+<body style="background-color: #525369;">
+
+    <!-- call script js to create DOM and execute buissness logic-->
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
